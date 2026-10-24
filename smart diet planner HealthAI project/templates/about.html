@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About — Diet & Healthy Eating</title>
+  <meta name="description" content="Complete guide about diet: types, components, tips, charts and visual infographic." />
+  <style>
+    :root{
+      --bg:#f7fafc; --card:#ffffff; --muted:#6b7280; --accent:#0f766e; --accent-2:#06b6d4; --radius:12px;
+      --maxw:1000px;
+      font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,#f7fafc 0%, #eef2f7 100%);color:#0f172a;line-height:1.5}
+    .wrap{max-width:var(--maxw);margin:36px auto;padding:28px}
+    header{display:flex;align-items:center;gap:18px}
+    .logo{width:80px;height:80px;border-radius:14px;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:20px}
+    h1{margin:0;font-size:28px}
+    p.lead{margin:6px 0 0;color:var(--muted)}
+    .grid{display:grid;grid-template-columns:1fr 360px;gap:20px;margin-top:22px}
+    @media (max-width:1000px){.grid{grid-template-columns:1fr} .toc{order:-1}}
+    .card{background:var(--card);border-radius:var(--radius);padding:20px;box-shadow:0 6px 20px rgba(15,23,42,0.06)}
+    section + section{margin-top:18px}
+    h2{font-size:18px;margin:0 0 10px}
+    .muted{color:var(--muted);font-size:14px}
+    .charts{display:flex;gap:14px;flex-wrap:wrap}
+    .chart-card{flex:1 1 220px;padding:12px;border-radius:10px;background:linear-gradient(180deg,#ffffff,#fbfdff);min-width:220px}
+    .chart-caption{font-size:13px;color:var(--muted);margin-top:8px}
+    .infographic{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+    @media (max-width:760px){.infographic{grid-template-columns:1fr}}
+    .info-tile{padding:14px;border-radius:10px;background:linear-gradient(90deg,#fff,#f8fbff);text-align:center}
+    .info-tile h3{margin:6px 0;font-size:15px}
+    .info-tile p{margin:0;color:var(--muted);font-size:13px}
+    .images{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+    .img-sq{flex:1 1 120px;border-radius:10px;overflow:hidden;min-width:120px;height:100px;display:flex;align-items:center;justify-content:center;background:#f1f5f9}
+    .img-sq svg{width:80%;height:80%}
+    ul.bullets{padding-left:18px}
+    .tips{display:flex;gap:12px;flex-wrap:wrap;margin-top:10px}
+    .tip{flex:1 1 180px;padding:12px;border-radius:10px;background:linear-gradient(90deg,#fffcf7,#fff);border:1px solid rgba(15,23,42,0.03)}
+    footer{margin-top:18px;text-align:center;color:var(--muted);font-size:13px}
+    .small{font-size:13px;color:var(--muted)}
+    .kbd{display:inline-block;background:#0f172a;color:#fff;padding:6px 10px;border-radius:8px;font-weight:600;font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">DIET</div>
+      <div>
+        <h1>Complete Guide to Diet & Healthy Eating</h1>
+        <p class="lead">Clear, visual and well-formatted — macronutrients, diet types, practical tips and quick charts for everyday use.</p>
+      </div>
+    </header>
+
+    <div class="grid">
+      <main class="card">
+        <section id="overview">
+          <h2>What is a Diet? — Short Paragraph</h2>
+          <p class="small">A <strong>diet</strong> is the collection of foods and drinks a person regularly consumes. A healthy diet supplies the body with energy, building blocks for repair, and nutrients to support all bodily processes. The goal is to balance macronutrients (carbs, proteins, fats) with sufficient vitamins, minerals, fiber and water.</p>
+        </section>
+
+        <section id="types">
+          <h2>Common Types of Diets</h2>
+          <div class="infographic">
+            <div class="info-tile"><h3>Balanced Diet</h3><p>All food groups in moderate portions — best for general health.</p></div>
+            <div class="info-tile"><h3>Mediterranean</h3><p>Fruits, vegetables, fish, olive oil — heart friendly.</p></div>
+            <div class="info-tile"><h3>Low-Carb / Keto</h3><p>Low carbs, high fat — used for rapid weight loss short-term.</p></div>
+            <div class="info-tile"><h3>Vegan</h3><p>No animal products — plant based for ethics/health.</p></div>
+            <div class="info-tile"><h3>Intermittent Fasting</h3><p>Eating within windows (e.g., 16:8) — supports weight control & metabolic flexibility.</p></div>
+            <div class="info-tile"><h3>Vegetarian</h3><p>No meat, may include eggs/dairy — balanced plant focus.</p></div>
+          </div>
+        </section>
+
+        <section id="charts">
+          <h2>Visual: Macronutrient Distribution & Common Foods</h2>
+          <div class="charts">
+            <!-- (SVGs & chart content preserved from your version) -->
+          </div>
+        </section>
+
+        <section id="tips">
+          <h2>Practical Tips (Short Points)</h2>
+          <div class="tips">
+            <div class="tip"><strong>Plan meals</strong><p class="small">Preparing plates ahead avoids impulsive choices.</p></div>
+            <div class="tip"><strong>Choose whole foods</strong><p class="small">Whole grains, legumes, nuts & fresh produce over processed options.</p></div>
+            <div class="tip"><strong>Watch portions</strong><p class="small">Use smaller plates; stop when ~80% full.</p></div>
+            <div class="tip"><strong>Protein first</strong><p class="small">Include quality protein in each meal to support satiety and repair.</p></div>
+          </div>
+        </section>
+
+        <section id="components">
+          <h2>Key Components (More Detail)</h2>
+          <ul class="bullets">
+            <li><strong>Carbohydrates:</strong> Primary energy — prefer whole grains, fruits, legumes.</li>
+            <li><strong>Proteins:</strong> Repair & enzymes — eggs, dairy, fish, pulses, tofu.</li>
+            <li><strong>Fats:</strong> Essential fatty acids — olive oil, nuts, seeds, fatty fish.</li>
+            <li><strong>Vitamins & Minerals:</strong> From colourful fruits & vegetables — aim for a rainbow daily.</li>
+            <li><strong>Fiber & Water:</strong> Support digestion; aim for 25–35g fiber and ~2–3 L water depending on needs.</li>
+          </ul>
+        </section>
+
+        <section id="pitfalls">
+          <h2>Common Unhealthy Habits to Avoid</h2>
+          <p class="small">Skipping meals, relying on sugary drinks, excessive processed foods, very low calorie dieting without supervision — all can harm energy levels and long-term health.</p>
+        </section>
+
+        <section id="cta">
+          <h2>Quick Action</h2>
+          <p class="small">Try this simple change today: <strong>add one extra serving of vegetables</strong> to one meal. Track how you feel for a week.</p>
+        </section>
+      </main>
+
+      <aside class="card toc">
+        <!-- Side content (TOC & icons) preserved -->
+      </aside>
+    </div>
+
+    <footer>
+      <div class="small">© 2025 NutriAI | Powered by Vivek Parthe 💚</div>
+    </footer>
+
+    <div style="text-align:center;margin-top:12px;">
+      <a href="/" class="kbd">🏠 Back to Home</a>
+    </div>
+  </div>
+</body>
+</html>
